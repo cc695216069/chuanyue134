@@ -279,6 +279,7 @@ a{
 	border-top:1px solid #e2e2e2;
 	border-bottom:1px solid #e2e2e2;
 	float:right;
+	width:949px;
 	padding-top:20px;
 	padding-bottom:53px;
 }
@@ -327,4 +328,120 @@ a{
 .text-2:hover{
 	text-decoration:underline; 
 }
-
+/*私有样式3*/
+.wrap{
+	background-color:#fff;
+	margin-top:96px;
+	padding:44px 61px 65px 52px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.wrap .title{
+	font-size:18px;
+	color:#333;
+}
+.wrap h3{	
+	margin-bottom:15px;
+}
+.lablelist .lable{
+	font-size:12px;
+	color:#333;
+	float:left;
+}
+.lablelist .xtitle{
+	font-size:12px;
+	color:#999;
+	float:left;
+	margin-left:22px;
+}
+.lablelist{
+	overflow:hidden;
+	border-bottom:1px solid #f0f1f1;
+	margin-bottom:33px;
+	padding-bottom:10px; 
+}
+.banner3{
+	background-image:url(images/banner3.png);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	background-size:cover;
+	height:300px;
+}
+.textlist p{
+	font-size:14px;
+	color:#333;
+	padding-top:28px;
+}
+.media{
+	line-height:25px;
+}
+.textlist{
+	border-bottom:1px solid #f0f1f1;
+	padding-bottom:20px;
+}
+.about{
+	font-size:12px;
+	color:#333;
+	margin-top:15px;
+}
+.shang{
+	float:left;
+}
+.xia{
+	float:right;
+}
+/*私有样式4*/
+.banner4{
+	background-image:url(images/banner4.png);
+}
+.culture{
+	margin-top:30px;
+}
+.culturelist li{
+	float:left;
+	margin-right:12px;
+	background-color:#cdcdcd;
+}
+.culturelist{
+	border-bottom:1px solid #dd4012;
+	overflow:hidden;
+}
+.culturelist a{
+	color:#333;
+	font-size:14px;
+	padding:0 18px;
+}
+.culturelist .focus{
+	background-color:#dd4012;
+}
+.culturelist .focus a{
+	color:#cdcdcd;
+}
+.culturelist li:hover{
+	background-color:#dd4012;
+}
+.culturelist li:hover a{
+	color:#cdcdcd;
+}
+.intruduction{
+	padding-top:20px;
+}
+.group a{
+	color:#dd4012;
+	font-size:20px;
+}
+.intruduction p{
+	padding-top:10px;
+	color:#333;
+	font-size:14px;
+}
+.intruduction .profile{
+	line-height:25px;
+}
+.excellent{
+	background-image:url(images/exce.png);
+	height:143px;
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	margin:30px 0;
+}
