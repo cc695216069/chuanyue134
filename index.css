@@ -17,7 +17,6 @@ a{
 	color: #a6a6a6;
 }
 .top{
-	height:48px;
 	border-top: 1px solid #3a3a3f;
 	background:#323232;	
 }
@@ -30,6 +29,7 @@ a{
 }
 .logo{
 	position:absolute;
+	top:-1px;
 	z-index:5;
 }
 .logo img{
@@ -49,7 +49,7 @@ a{
 	font-size:12px;
 	padding-left:18px;
 	padding-right:18px;
-	transition:.5s;
+	transition:all .5s linear;
 }
 .nav a:hover{
 	background:#dd4012;
@@ -331,6 +331,7 @@ a{
 /*私有样式3*/
 .wrap{
 	background-color:#fff;
+	width:1001px;
 	margin-top:96px;
 	padding:44px 61px 65px 52px;
 	overflow:hidden;
@@ -374,6 +375,7 @@ a{
 }
 .media{
 	line-height:25px;
+	text-indent:2em;
 }
 .textlist{
 	border-bottom:1px solid #f0f1f1;
@@ -396,6 +398,7 @@ a{
 }
 .culture{
 	margin-top:30px;
+	margin-bottom:30px;
 }
 .culturelist li{
 	float:left;
@@ -409,7 +412,8 @@ a{
 .culturelist a{
 	color:#333;
 	font-size:14px;
-	padding:0 18px;
+	padding:0px 22px;
+	line-height:30px;
 }
 .culturelist .focus{
 	background-color:#dd4012;
@@ -437,11 +441,227 @@ a{
 }
 .intruduction .profile{
 	line-height:25px;
+	text-indent:2em;
 }
 .excellent{
 	background-image:url(images/exce.png);
 	height:143px;
 	background-repeat:no-repeat;
 	background-position:0 50%;
+	margin-top:30px;
+}
+/*私有样式5*/
+.banner-5{
+	background-image:url(images/banner-5.png);
+	margin-bottom:30px;
+}
+.technology-left li{
+	border-top:1px solid #1b1c1e;
+	line-height:38px;
+	background-color:#000;
+} 
+.technology-left li:hover{
+	background-color:#dd4012;
+}
+.technology-left li:hover a{
+	color:#fff;
+}
+.technology-left a{
+	display:block;
+	width:150px;
+	padding-left:50px;
+	color:#909090;
+	font-size:14px;
+}
+.technology-left .focus{
+	background-color:#dd4012;
+}
+.technology-left .focus a{
+	color:#fff;
+}
+.technology-left{
+	float:left;
+}
+.technology-right{
+	float:right;
+	width:866px;
+}
+.technology{
+	margin-bottom:30px;
+}
+/*私有样式6*/
+.company a{
+	color:#dd4012;
+	font-size:20px;
+}
+.company{
+	margin:20px 0;
+}
+.culture-left{
+	float:left;
+}
+.culture-right{
+	float:right;
+	width:514px;
+	padding-top:47px;
+}
+.culture-right p{
+	font-size:14px;
+	color:#333;
+	text-indent:2em;
+	margin-top:15px;
+	line-height:24px;
+}
+.culture-right .Chnyoo{
+	color:#dd4013;
+}
+/*私有样式7*/
+.partner a{
+	color:#dd4012;
+	font-size:20px;
+}
+.partner{
 	margin:30px 0;
+}
+.imglist .photos{
+	float:left;
+	margin-right:22px;
+	width:200px;
+	height:100px;
+	border:1px solid #cdcdcd;
+	transition:all .5s;
+}
+.imglist .photos:hover{
+	transform:scale(1.03,1.03);
+	cursor:pointer;
+	border:1px solid #dd4012;
+	box-shadow:0 0 5px #dd4012;
+}
+.imglist{
+	margin-bottom:20px;
+}
+.imglist .taohv{
+	margin-right:0px;
+}
+.circle{
+	width:96px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.circle .orange{
+	float:left;
+	margin-right:30px;
+}
+ .circle .circlelast{
+	margin-right:0px;
+}
+.circle a{
+	background-color:#dd4012;
+	display:block;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+}
+/*私有样式8*/
+.corporate a{
+	color:#dd4012;
+	font-size:20px;
+}
+.corporate{
+	margin:25px 0;
+}
+.business-left{
+	float:left;
+}
+.corporate-img{
+	margin-top:15px;
+	padding-left:35px;
+}
+.business-right{
+	float:right;
+}
+.selectout{
+	margin-top:50px;
+}
+.service{
+	margin-top:22px;
+}
+.selectout a{
+	color:#dd4012;
+	font-size:17px;
+}
+.table{
+	color:#333;
+	font-size:14px;
+}
+.table li{
+	margin-top:14px;
+	text-indent:2em;
+}
+/*私有样式9*/
+.website{
+	background-color:#fff;
+	margin-top:90px;
+	margin-bottom:30px;
+}
+.inner-content{
+	width:990px;
+	padding-top:50px;
+	margin:0 auto;
+}
+.fashion a{
+	font-size:24px;
+	color:#333;
+}
+.fashion{
+	margin-bottom:15px;
+}
+.wine{
+	width:990px;
+	height:40px;
+	background-color:#f0f1f1;
+	font-size:12px;
+}
+.wine a{
+	color:#909090;
+}
+.art{
+	height:445px;
+	background-image:url(images/artmost.png);
+	background-position:center 0;
+	background-repeat:no-repeat;
+	margin-top:20px;
+	position:relative;
+}
+.after{
+	position:absolute;
+	top:200px;
+	right:10px;
+}
+.art-text h3{
+	font-size:14px;
+	margin:20px 0;
+}
+.art-text p{
+	font-size:14px;
+	line-height:20px;
+	color:#333;
+}
+.top-bottom{
+	border-top:1px solid #eee;
+	margin-top:30px;
+	font-size:14px;
+	color:#333;
+	overflow:hidden;
+	padding-top:15px;
+	padding-bottom:30px;
+}
+.top-bottom .jichu{
+	float:left;
+}
+.top-bottom .zhehe{
+	float:right;
+}
+.sec-nav{
+	position:absolute;
 }
